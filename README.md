@@ -13,7 +13,7 @@ A Foundry UUPS Upgradeable Contracts Project that is part of Cyfrin Solidity Blo
 - [foundry](https://getfoundry.sh/)
   - You'll know you did it right if you can run `forge --version` and you see a response like `forge 0.2.0 (816e00b 2023-03-16T00:05:26.396218Z)`
 
-### Quickstart
+### Quick Start
 
 ```
 git clone https://github.com/dannweeeee/foundry-upgrades-f23
@@ -60,7 +60,7 @@ forge coverage --report debug
 ```
 
 
-## Deployment to a testnet or mainnet
+## Deployment to a Testnet or Mainnet
 
 1. Setup environment variables
 
@@ -120,7 +120,7 @@ cast --to-base 0x000000000000000000000000000000000000000000000000000000000000004
 
 
 
-### Estimate gas
+### Estimate Gas
 
 You can estimate how much gas things cost by running:
 
