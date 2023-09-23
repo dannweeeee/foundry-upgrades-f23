@@ -6,14 +6,14 @@ A Foundry UUPS Upgradeable Contracts Project that is part of Cyfrin Solidity Blo
 2. [BoxV1 on Sepolia Testnet](https://sepolia.etherscan.io/address/0x73c1ba45b62aae713d3b7e2e875cbc53f6521937#code)
 3. [BoxV2 on Sepolia Testnet](https://sepolia.etherscan.io/address/0xdF5F7907839DEc1cd2c8e9948c2d7B832C646Ff8#code)
 
-## Requirements
+### Requirements
 
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
   - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
 - [foundry](https://getfoundry.sh/)
   - You'll know you did it right if you can run `forge --version` and you see a response like `forge 0.2.0 (816e00b 2023-03-16T00:05:26.396218Z)`
 
-## Quickstart
+### Quickstart
 
 ```
 git clone https://github.com/dannweeeee/foundry-upgrades-f23
@@ -21,15 +21,15 @@ cd foundry-upgrades-f23
 forge build
 ```
 
-# Usage
+## Usage
 
-## Start a local node
+### Start a local node
 
 ```
 make anvil
 ```
 
-## Deploy
+### Deploy
 
 This will default to your local node. You need to have it running in another terminal in order for it to deploy.
 
@@ -37,17 +37,17 @@ This will default to your local node. You need to have it running in another ter
 make deploy
 ```
 
-## Deploy - Other Network
+### Deploy - Other Network
 
 [See below](#deployment-to-a-testnet-or-mainnet)
 
-## Testing
+### Testing
 
 ```
 forge test
 ```
 
-### Test Coverage
+#### Test Coverage
 
 ```
 forge coverage
@@ -60,7 +60,7 @@ forge coverage --report debug
 ```
 
 
-# Deployment to a testnet or mainnet
+## Deployment to a testnet or mainnet
 
 1. Setup environment variables
 
@@ -88,7 +88,7 @@ make deploy ARGS="--network sepolia"
 make upgrade  ARGS="--network sepolia"
 ```
 
-### Scripts
+#### Scripts
 
 Instead of scripts, we can directly use the `cast` command to interact with the contract. 
 
@@ -120,7 +120,7 @@ cast --to-base 0x000000000000000000000000000000000000000000000000000000000000004
 
 
 
-## Estimate gas
+### Estimate gas
 
 You can estimate how much gas things cost by running:
 
@@ -131,7 +131,7 @@ forge snapshot
 And you'll see and output file called `.gas-snapshot`
 
 
-# Formatting
+## Formatting
 
 
 To run code formatting:
